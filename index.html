@@ -539,50 +539,41 @@
             </div>
           </div>
 
-          <form action="https://script.google.com/macros/s/AKfycbwwkSZBp7lIqjP4e-LCRx_CVO9Krcj4OZUejd7KynNV3gMBnrpboXXd8J46ZkOYxvFH/exec"
-           method="post" class="contact-form" id="form">
-            
-              <h3 class="title">Contact me</h3>
-              <div class="row">
+          <div class="contact-form">
 
-                <div class="col form-control">
-                  <input type="text" id="first_name" name="first_name" class="contact-input" placeholder="First Name" />
-                  <!-- <span class="err"></span> -->
-                </div>
+            <h3 class="title">Contact me</h3>
+            <div class="row">
+
+              <input type="text" id="first_name" name="first_name" class="contact-input" placeholder="First Name" />
+
+              <input type="text" id="last_name" name="last_name" class="contact-input" placeholder="Last Name" />
 
 
-                <div class="col form-control">
-                  <input type="text" id="last_name" name="last_name" class="contact-input" placeholder="Last Name" />
-                  <!-- <span class="err"></span> -->
-                </div>
+            </div>
+            <div class="row">
 
-              </div>
-              <div class="row">
-                <div class="col form-control">
-                  <input type="text" id="phone" name="phone" class="contact-input" placeholder="Phone" />
-                  <span class="err"></span>
-                </div>
+              <input type="text" id="phone" name="phone" class="contact-input" placeholder="Phone" />
 
-                <div class="col form-control"></div>
-                <input type="email" id="email" name="email" class="contact-input" placeholder="Email" />
-                <span class="err"></span>
-              </div>
 
-           
+
+              <input type="email" id="email" name="email" class="contact-input" placeholder="Email" />
+
+            </div>
+
+
 
             <div class="row">
-              <div class="col form-control">
-                <textarea name="message" id="message" class="contact-input textarea" placeholder="Message"></textarea>
-                <span class="err"></span>
-              </div>
-            </div>
-            <button type="submit" id="submit" style="border: 0; background: none;">
-              <a href="#form" class="btn">Send</a>
-            </button>
-          </form>
-        </div>
 
-      </div>
+              <textarea name="message" id="message" class="contact-input textarea" placeholder="Message"></textarea>
+
+            </div>
+
+            <a href="#form" class="btn">Send</a>
+
+
+          </div>
+
+        </div>
       </div>
     </section>
 
@@ -701,7 +692,7 @@
     </div>
   </footer>
 
-  <script src="./js/form_vali.js"></script>
+  <!-- <script src="./js/form_vali.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./js/isotope.pkgd.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

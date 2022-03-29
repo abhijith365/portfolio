@@ -1048,7 +1048,7 @@ header .circle {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   grid-column-gap: 0.6rem;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .contact-input {
@@ -2103,31 +2103,3 @@ header .circle {
 
 /* error message */
 
-
-.form-control .success .contact-input {
-  border: 1px solid #2ecc71 !important;
-  background-color: #2ecc706c !important;
-}
-
-.form-control .middlename input:-webkit-autofill {
-  border: 1px solid #2ecc71 !important;
-  background-color: #2ecc706c !important;
-}
-
-.form-control .error .contact-input {
-  border: 1px solid #d13c2b79 !important;
-  background-color: #d13c2b !important;
-  ;
-}
-
-
-.form-control .err {
-  visibility: hidden;
-}
-
-.form-control.error .err {
-  visibility: visible;
-  color: rgb(206, 33, 33) !important;
-  font-size: 12px;
-  padding-left: 5px;
-}
